@@ -20,6 +20,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang='en'>
     <head>
       <Temp />
+       <link rel='icon' href='/favicon.ico' />
     </head>
     <body className={`${workSans.className} bg-primary-grey-200`}>
       <Room>
